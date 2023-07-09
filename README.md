@@ -22,4 +22,4 @@
 4. 修改crowd_detect.py并运行
 
 # building_segement.py
-同上
+同上crowd_detect.py
