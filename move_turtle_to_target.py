@@ -136,19 +136,6 @@ def road_line_manger(master):
     master.g_circle(0.2, 8.3, 0.2, 5, 1 / 4, 1 / 2)  # 直角弯
     master.g_point(0, 2)  # 终点
 
-    # # 蜘蛛网路线
-    # angles = np.linspace(0 * 2 * np.pi, 1 * 2 * np.pi, 7)
-    # points_x = 5.5 + 5 * np.cos(angles)
-    # points_y = 5.5 + 5 * np.sin(angles)
-    # car.g_point(5.5, 5.5)
-    # # 六条主干
-    # for i, j in zip(points_x, points_y):
-    #     car.g_point(i, j)
-    #     car.g_point(5.5, 5.5)
-    # # 六边形
-    # for i in range(10):
-    #     car.g_circle(5.5, 5.5, i * 0.5, 7, 0, 1)
-
 
 if __name__ == '__main__':
     # # 开始运动
